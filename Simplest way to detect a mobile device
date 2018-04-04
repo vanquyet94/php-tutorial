@@ -13,3 +13,4 @@ function isMobile() {
     if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'windows')>0) $isMobile = true;
     return $isMobile;
 }
+?>
